@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mark Strelecky</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <h1 id="bigname">Mark Strelecky</h1>
+  </div>
+
+  <div id="box">
+
+    <img id="my-pic" src="./assets/images/profile_pic.jpeg" alt="profile pic">
+
+    <div id="content-box">
+
+      <div class="content" id="about-me">
+        <h2>About Me</h2>
+        <p>Hi, I'm Mark, a full stack developer based in Austin, TX. </p>
+        <p>From a young age I have had a deep curiosity and desire to understand the world. I love to think. I love to analyze things. It was natural, then, that I would end up studying physics in college.</p>
+        <p>While in school, I began tutoring high school students and discovered my passion for teaching, which I followed into special education.</p>
+        <p>I have spent the bulk of my professional career at Texas School for the Blind & VI, working in the residential department. There I worked with a wide variety of students, focusing mostly on living skills. I was drawn the intellectual challenge of breaking down and communicating ideas, but mostly I loved the human connections I made there.</p>
+        <p>In the back of my mind, however, was the desire to do something more analytical. I have always been excited by technology and the possibilities it creates. I decided to start learning coding and I was quickly hooked. I enrolled at a Coding Bootcamp at UT Austin and was greatly challenged and greatly fulfilled. I can't wait to start my new professional life!
+        </p>
+  
+
+      </div>
+
+      <div class="content" id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="content-display">
+          <button class= "slide-btn port-slide-btn" id="port-up" data="-1"> < </button>
+          <a id="portfolio-link" href="https://battlemath.herokuapp.com/" target="_blank"><img id="portfolio-image" src="./assets/images/battle_math.png"></a>
+          <button class= "slide-btn port-slide-btn" id="port-down" data="1"> > </button>
+        </div>
+        <h3 id="portfolio-headline">Battle Math</h3>
+        <p id="portfolio-description">Battle Math is an educational role-playing game designed for elementary students to hone their foundational math skills. It is built with a React front end and a Node Express/MySQL back end. The game is based on the idea of each user having a persistent character whose skills grows along with the student. With experience, the character gains new, more powerful abilities that require the user to solve more difficult problems to unelash.</p>
+      </div>
+
+      <div class="content" id="resume">
+        <div style="padding-bottom: 6px; border-bottom: 1px inset white;">
+          <h2 style="display: inline;">Resume</h2>
+          <a href="./assets/Mark_Strelecky_Resume.pdf" download style="padding-bottom: 10px; color: #33F;">Download PDF</a>
+        </div>
+        <h3 class="content-head">Technical Skills</h3>
+        <p class="content-item">HTML, CSS, Javascript, JQuery, Python, React, Node Express, MySQL/Sequelize, MongoDB/Mongoose</p>
+        <h3 class="content-head">Education</h3>
+        <p class="content-item">UT Austin Coding Bootcamp</p>
+        <p class="content-subitem">Full Stack Web Development, 7/17 – 10/17</p>
+        <p class="content-item">University of Washington</p>
+        <p class="content-subitem">B.S. Physics, 8/02 – 6/07</p>
+        <h3 class="content-head">Employment</h3>
+        <p class="content-item">Texas School for the Blind and Visually Impaired</p>
+        <p class="content-subitem" style="font-weight: bold; font-size: 16px;">Dorm Manager, 8/14 – 7/17</p>
+        <p class="content-subitem" style="margin-left: 80px;">Supervised 8 direct-care staff; assisted in development of life skills programming for students in residential setting; coordinated activities and communication between residential staff, parents, teachers, and support staff</p>
+        <p class="content-subitem" style="font-weight: bold; font-size: 16px;">Lead Residential Instructor, 8/11 – 7/14</p>
+        <p class="content-subitem" style="margin-left: 80px;">Responsible for training new Residential Instructors, including teaching formal training sessions for Positive Behavior Support and The Mandt System, assisted in development of student goals and educational strategies</p>
+        <p class="content-subitem" style="font-weight: bold; font-size: 16px;">Residential Instructor, 11/08 – 7/11</p>
+        <p class="content-subitem" style="margin-left: 80px;">Provided instruction in living skills for students with multiple disabilities</p>
+        <h3 class="content-head">References</h3>
+        <p class="content-item">Eric Scott, Teacher at UT Coding Bootcamp</p>
+        <p class="content-subitem">eric.m.scott1@gmail.com</p>
+        <p class="content-item">Erik Pelagio, Teaching Assistant at UT Coding Bootcamp</p>
+        <p class="content-subitem">ejpelagio@yahoo.com</p>
+        <p class="content-item">Garner Vogt, Residential Director at Texas School for the Blind & VI</p>
+        <p class="content-subitem">vogtg@tsbvi.edu, (512)206-9115</p>
+        <p class="content-item">Kerim Peirce, former supervisor at Texas School for the Blind & VI</p>
+        <p class="content-subitem">kerimpeirce@gmail.com, (512)482-9070</p>
+      </div>
+      
+       <div class="content" id="contact">
+        <h2>Contact Me</h2>
+        <h3 class="content-head">Email:</h3><p class="content-item">streleck@gmail.com</p>
+        <h3 class="content-head">Phone:</h3><p class="content-item">(206)769-7933</p>
+        <h3 class="content-head">LinkedIn:</h3><a target="_blank" href="https://www.linkedin.com/in/mark-strelecky-46039929/"><p class="content-item">https://www.linkedin.com/in/mark-strelecky-46039929/</p><a>
+        <h3 class="content-head">Github:</h3><a target="_blank" href="https://github.com/streleck"><p class="content-item">https://github.com/streleck</p><a>
+      </div>
+      
+      <div id="nav-box">
+        <button class="nav-btn-on" id="nav-about">About Me</button>
+         <button class="nav-btn-off" id="nav-resume">Resume</button>
+        <button class="nav-btn-off" id="nav-port">Portfolio</button>
+        <button class="nav-btn-off" id="nav-contact">Contact Info</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="my-links">
+  </div>
+<script type="text/javascript" src="./assets/app.js"></script>
+</body>
+
+</html>
