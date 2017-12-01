@@ -50,6 +50,12 @@ var portfolioItems = [
 		link: 'https://streleck.github.io/GIFtastic/'
 	},
 	{
+		image: "./assets/images/stranger_scraper.png",
+		title: "Stranger Scraper",
+		description: "This site utilizes a full stack, including a Node JS server and a Mongo database. The Cheerio NPM is used to scrape articles from the website of The Seattle Stranger Newspaper. The headlines and links to each article are stores in the database and displayed to the user, who is then able to make or delete comments, with changes being saved to a relational database.",
+		link: 'https://streleck.github.io/GIFtastic/'
+	},
+	{
 		image: "./assets/images/train_tables.png",
 		title: "Train Tables",
 		description: "Train Tables uses a Firebase database to store a set of train arrival times. I used MomentJS to calculate the next arrival time and dynamically display the wait time until the next arrival. The user is able to enter new trains to the schedule and arrival times will automatically be calculated and displayed, based on the entered start time and frequency.",
