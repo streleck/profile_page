@@ -53,7 +53,7 @@ var portfolioItems = [
 		image: "./assets/images/stranger_scraper.png",
 		title: "Stranger Scraper",
 		description: "This site utilizes a full stack, including a Node JS server and a Mongo database. The Cheerio NPM is used to scrape articles from the website of The Seattle Stranger Newspaper. The headlines and links to each article are stores in the database and displayed to the user, who is then able to make or delete comments, with changes being saved to a relational database.",
-		link: 'https://streleck.github.io/GIFtastic/'
+		link: 'https://rocky-castle-26460.herokuapp.com/'
 	},
 	{
 		image: "./assets/images/train_tables.png",
