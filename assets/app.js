@@ -85,8 +85,9 @@ $(".port-slide-btn").on("click", function(){
 	if (portfolioIndex < 0){
 		portfolioIndex = (portfolioItems.length - 1)
 	}
-	$("#portfolio-image").attr("src", portfolioItems[portfolioIndex].image)
-	$("#portfolio-link").attr("href", portfolioItems[portfolioIndex].link)
+	$(".portfolio-link").hide();
+	$("#link-" + portfolioIndex).show();
+	$(".portfolio-link").attr("href", portfolioItems[portfolioIndex].link)
 	$("#portfolio-headline").html(portfolioItems[portfolioIndex].title)
 	$("#portfolio-description").html(portfolioItems[portfolioIndex].description)
 });
