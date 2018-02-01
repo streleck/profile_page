@@ -70,7 +70,7 @@ var portfolioItems = [
 	{
 		image: "./assets/images/profile_page.png",
 		title: "This Page",
-		description: "",
+		description: "A basic HTML/CSS/Javascript page.",
 		link: "https://en.wikipedia.org/wiki/Recursion"
 	}
 ]
