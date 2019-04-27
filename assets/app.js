@@ -38,6 +38,12 @@ $("#nav-contact").on("click", function (){
 //portfolio content
 var portfolioItems = [
 	{
+		image: "./assets/images/api_uptime_monitor.png",
+		title: "API Uptime Monitor",
+		description: "This is a full stack web app built on node, that allows the user to track their API's availability. The user can view statistics about uptime, error messages, and can opt to recieve email alerts if the endpoint goes down. I built the front end with vanilla javascript in attempt to build a clean, intuitive UI from the ground up.",
+		link: 'https://api-uptime-monitor.herokuapp.com/'
+	},
+	{
 		image: "./assets/images/battle_math.png",
 		title: "Battle Math",
 		description: "Battle Math is an educational role-playing game designed for elementary students to hone their foundational math skills. It is built with a React front end and a Node Express/MySQL back end. The game is based on the idea of each user having a persistent character whose skills grows along with the student. With experience, the character gains new, more powerful abilities that require the user to solve more difficult problems to unelash.",
@@ -48,12 +54,6 @@ var portfolioItems = [
 		title: "basketball.gif",
 		description: "This site makes it easy to search for a variety af basketball-related gifs. It uses AJAX to interface with the giphy.com API and JQUERY to dynamically generate buttons that search and display content. Videos can be played or stopped with a click. Using the text input, the user can create new buttons for quick searching of new keywords.",
 		link: 'https://streleck.github.io/GIFtastic/'
-	},
-	{
-		image: "./assets/images/stranger_scraper.png",
-		title: "Stranger Scraper",
-		description: "This site utilizes a full stack, including a Node JS server and a Mongo database. The Cheerio NPM is used to scrape articles from the website of The Seattle Stranger newspaper. The headlines and links to each article are stores in the database and displayed to the user, who is then able to make or delete comments, with changes being saved to a relational database.",
-		link: 'http://stranger-scraper.herokuapp.com/'
 	},
 	{
 		image: "./assets/images/train_tables.png",
